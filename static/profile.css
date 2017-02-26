@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.nav-container{
+    height: 70px;
+    background-color: rgb(82,195,221);
+}
+
+.nav-container .nav-desc{
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.nav-container .nav-menu{
+    float: right;
+}
+
+.nav-menu ul li{
+    margin: 20px;
+    padding-left: 10px;
+    list-style-type: none;
+    float: right;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-menu ul li a:active{
+    color: bisque;
+}
+
+a:link{
+    color: dimgrey;
+}
+
+a:visited{
+    color: darkslategrey;
+}
+a:hover{
+    color: bisque;
+}
+a:active{
+    color: rgb(82,195,221);
+}
+
+.main-container{
+    margin: 40px;
+    text-align: center;
+}
+
+.task-desc{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 20px;
+}
+
+table{
+    width: 100%;
+}
+
+table tr th,td{
+    text-align: center;
+}
+
+tr th, tr td {
+    padding: 3px 5px;
+}
+
+.footer-container{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    background-color:rgb(82,195,221) ;
+    height: 100px;
+    text-align: center;
+}
+
+.footer-info{
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+}

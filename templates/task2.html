@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>小薇学院task2</title>
+    <link rel="stylesheet" href="/static/reset.css"/>
+    <link rel="stylesheet" href="/static/task2.css"/>
 </head>
 <body>
 <div class="nav-container">
     <header>
         <nav>
             <div class="nav-text">
-                <h3>网站一级标题</h3>
+                <h3>网站标题</h3>
             </div>
             <div class="nav-menu">
                 <ul>
@@ -26,56 +28,54 @@
 <article>
     <h2>文章一级标题</h2>
     <h3>文章二级标题</h3>
+    <div class="article-info"><span>文章作者</span>&nbsp;<span>文章发表时间</span></div>
     <p>
-        文章作者&nbsp;文章发表时间
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies
+        eget, tempor sit amet,ante. Donec eu libero sit amet quam egestas semper.
+        Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit
+        amet est et sapien换行<br> ullamcorper pharetra. Vestibulum erat wisi, condimentum
+        sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget
+        tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim
+        ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent
+        dapibus, neque id cursus <a href="#">这里有一个链接</a>faucibus, tortor neque egestas augue, eu vulputate
+        magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis,
+        ccumsan porttitor, facilisis luctus, metu
+        <br><img src="/static/base.png"><br>
     </p>
     <p>
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies
         eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
         Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit
-        amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum
+        amet est et sapien ullamcorper <br>pharetra. Vestibulum erat wisi, condimentum
         sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget
         tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim
         ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent
         dapibus, neque id cursus <a href="#">这里有一个链接</a>faucibus, tortor neque egestas augue, eu vulputate
-        magna eros eu erat. Aliquam <br>换行erat volutpat. Nam dui mi, tincidunt quis,
-        ccumsan porttitor, facilisis luctus, metu
-        <br><img src="/static/base.png"><br>
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies
-        eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-        Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit
-        amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum
-        sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget
-        tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim
-        ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent
-        dapibus, neque id cursus <a href="#">这里有一个链接</a>faucibus, tortor neque egestas augue, eu vulputate
-        magna eros eu erat. Aliquam <br>换行erat volutpat. Nam dui mi, tincidunt quis,
+        magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis,
         ccumsan porttitor, facilisis luctus, metu
     </p>
 </article>
 
 <article>
-    <h2>另一篇文章一级标题</h2》
+    <h2>另一篇文章一级标题</h2>
     <h3>文章二级标题</h3>
-    <p>
-        文章作者 文章发表时间
-    </p>
+    <div class="article-info"><span>文章作者</span><span>文章发表时间</span></div>
     <p>
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies
         eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
         Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit
-        amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum
+        amet est et sapien ullamcorper <br>pharetra. Vestibulum erat wisi, condimentum
         sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget
         tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim
         ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent
         dapibus, neque id cursus <a href="#">这里有一个链接</a>faucibus, tortor neque egestas augue, eu vulputate
-        magna eros eu erat. Aliquam <br>换行erat volutpat. Nam dui mi, tincidunt quis,
+        magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis,
         ccumsan porttitor, facilisis luctus, met
     </p>
-    <img src="/static/base.png"/>
+    <br><img src="/static/base.png"/><br>
     <ul>
         <li>无序列表1</li>
         <li>无序列表2</li>
@@ -86,19 +86,19 @@
 <article>
     <h1>图片欣赏</h1>
     <figure>
-        <div>好看的图片1</div>
+        <div class="photo-desc">好看的图片1</div>
         <img src="/static/base.png" alt="好看的图片"/><br>
     </figure>
     <figure>
-        <div>好看的图片2</div>
+        <div class="photo-desc">好看的图片2</div>
         <img src="/static/base.png" alt="好看的图片"/><br>
     </figure>
     <figure>
-        <div>好看的图片3</div>
+        <div class="photo-desc">好看的图片3</div>
         <img src="/static/base.png" alt="好看的图片"/><br>
     </figure>
     <figure>
-        <div>好看的图片4</div>
+        <div class="photo-desc">好看的图片4</div>
         <img src="/static/base.png" alt="好看的图片"/><br>
     </figure>
 </article>
@@ -112,7 +112,7 @@
         <li>排名第二</li>
         <li>排名第三</li>
     </ol>
-    <h6>下面是一个表格,添加border="1"可以更好的看出是一个表格</h6>
+    <span class="table-desc">下面是一个表格,添加border="1"可以更好的看出是一个表格</span>
     <table border="1">
         <tr>
             <th>表头</th>
@@ -139,41 +139,61 @@
             <td>表头操作内容</td>
             <td><a href="#">操作</a></td>
         </tr>
-        <tr>
-            <td colspan="2">总计</td>
-            <td>10000</td>
+        <tr class="col-set">
+            <td>总计</td>
+            <td colspan="2">100</td>
         </tr>
     </table>
 </article>
 
 <div class="sidebar">
-    <h2>这里是一个侧栏</h2>
-    <h3>这里是侧栏的标题</h3>
-    <form>
-        <label>请输入邮箱地址</label><input type="email" placeholder="这是一个文本输入框"/><br>
-        <label>邮箱地址请按照格式输入</label><br>
-        <label>请输入密码</label><input type="password" placeholder="这是一个文本输入框"/ >
-        <label>请重复输入密码</label><input type="password" placeholder="这是一个文本输入框"/><br>
-        <label>密码为6-16位英文数字</label>
-        <p>
-            <label>性别:&nbsp;</label>
-            <label>男<input type="radio" value="male" name="sex"/></label>
-            <label>女<input type="radio" value="male" name="sex"/></label>
-            <label>城市:&nbsp;</label>
-            <select>
-                <option value="beijing">北京</option>
-                <option value="shanghai">上海</option>
-                <option value="guangzhou">广州</option>
-            </select>
-            <label>爱好:</label>
-            <label><input type="checkbox"/>运动</label>
-            <label><input type="checkbox"/>科学</label>
-            <label><input type="checkbox"/>艺术</label>
-            <label>个人描述:</label>
-            <textarea rows="5">这是填写您个人描述的地方</textarea>
-            <button>确认提交</button>
-        </p>
-    </form>
+    <blockquote>这里以后是一个侧栏，这是侧栏的标题</blockquote>
+        <form>
+            <div class="form-group">
+                <label class="control-label">请输入邮箱地址</label>
+                <input name="email" placeholder="这是一个文本输入框" type="email">
+                <div class="form-tip control-label-offset">邮箱地址请按要求格式输入</div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">请输入密码</label>
+                <input name="password1" pattern="[A-Za-z0-9]{6,16}" placeholder="这是一个密码输入框"
+                       id="form-password" type="password">
+            </div>
+            <div class="form-group">
+                <label class="control-label">请重复输入密码</label>
+                <input name="password2" pattern="[A-Za-z0-9]{6,16}" placeholder="这是一个密码输入框"
+                       id="form-password-confirm" type="password">
+                <div class="form-tip control-label-offset">密码为6-16位英文数字</div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">性别</label>
+                <label class="form-control"><input type="radio" name="gender" value="male" checked>男</label>
+                <label class="form-control"><input type="radio" name="gender" value="female">女</label>
+            </div>
+            <div class="form-group">
+                <label class="control-label">城市</label>
+                <select name="city" class="form-control">
+                    <option value="beijing">北京</option>
+                    <option value="shanghai">上海</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">爱好</label>
+                <div class="form-control">
+                    <label><input type="checkbox" name="hobby" value="sport">运动</label>
+                    <label><input type="checkbox" name="hobby" value="art">艺术</label>
+                    <label><input type="checkbox" name="hobby" value="science">科学</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">个人描述</label>
+                <div class="form-control" style="width: 60%">
+                    <textarea name="desc" rows="5" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+                </div>
+            </div>
+
+            <button class="btn btn-primary btn-lg">确认提交</button>
+        </form>
 </div>
 
 </div>

@@ -14,5 +14,9 @@ def task_1():
     return render_template('task1.html')
 
 
+@app.route('/vivi-2')
+def task_2():
+    return render_template('task2.html')
+
 if __name__ == '__main__':
     app.run(debug=True)

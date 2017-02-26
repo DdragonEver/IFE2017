@@ -2,17 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Profile</title>
+    <title>Introduction</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/profile.css">
 </head>
 <body>
-    <h1>Ddragon 学习IFE2017任务测试网站</h1>
-    <p>任务完成情况
-    <ul>
-        <li><a href="{{ url_for('task_1') }}">小薇学院任务一:0基础编码</a></li>
-    </ul>
-    </p>
-    <h1>如有疑问,欢迎联系。</h1>
-    <h1>Gmail:ddragonever@gmail.com</h1>
-    <h1>个人网站:<a href="http://www.ddragonever.com" >http://www.ddragonever.com</a></h1>
+<div class="nav-container">
+    <header>
+        <nav>
+            <div class="nav-desc">
+                <span></span>Ddragon IFE2017任务测试网站</span>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="http://ddragonever.com" target="_blank">关于</a></li>
+                    <li><a href="http://ddragonever.com" target="_blank">博客</a></li>
+                    <li><a href="http://ddragonever.com" target="_blank">简历</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</div>
+
+<div class="main-container">
+    <span class="task-desc">任务完成情况</span>
+<table border="1">
+    <tr>
+        <th>任务列表</th>
+        <th>完成情况</th>
+    </tr>
+    <tr>
+        <td>小薇学院任务一:零基础html基础编码</td>
+        <td><a href="http://ife.jxnugo.com/vivi-1">http://ife.jxnugo.com/vivi-1</a></td>
+    </tr>
+    <tr>
+        <td>小薇学院任务二:零基础html,css编码一</td>
+        <td><a href="http://ife.jxnugo.com/vivi-2">http://ife.jxnugo.com/vivi-2</a></td>
+    </tr>
+    <tr>
+        <td>陆续更新中-_-</td>
+        <td><a href="http://ife.jxnugo.com/vivi-2"></a></td>
+    </tr>
+</table>
+    </div>
+
+<div class="footer-container">
+    <footer>
+        <span class="footer-info">网站相关功能正在开发中,敬请期待</span>
+        <span class="footer-info">联系方式:ddragonever@gmail.com</span>
+        <span class="footer-info">Powered by 阿里云ECS</span>
+    </footer>
+</div>
 </body>
 </html>
